@@ -1,5 +1,15 @@
 # Change Log
 
+## 9.1.0
+
+### Patch Changes
+
+- [#2493](https://github.com/graphcommerce-org/graphcommerce/pull/2493) [`a482084`](https://github.com/graphcommerce-org/graphcommerce/commit/a482084d34e5e38e19cf6afbad87cd6eda67e858) - Currency wasn't set properly while rendering custom options for cart items that had a different currency than the current store. ([@paales](https://github.com/paales))
+
+- [#2485](https://github.com/graphcommerce-org/graphcommerce/pull/2485) [`875fbca`](https://github.com/graphcommerce-org/graphcommerce/commit/875fbcab9a26db8a33eca7cc9a41847c24cd8381) - Solve issue where the CartItem href wouldn't be correct ([@paales](https://github.com/paales))
+
+- [#2485](https://github.com/graphcommerce-org/graphcommerce/pull/2485) [`dfd6359`](https://github.com/graphcommerce-org/graphcommerce/commit/dfd63593f31bd69d255a69dd7e9cb5471428c685) - Exported cartItemToCartItemInput so it can be extended with plugins ([@paales](https://github.com/paales))
+
 ## 9.1.0-canary.15
 
 ### Patch Changes
